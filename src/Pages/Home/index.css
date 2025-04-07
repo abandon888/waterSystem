@@ -71,7 +71,8 @@
   width: 60%;
   height: 100vh;
   /* background:repeating-linear-gradient( to left top,rgba(140, 139, 216, 0.3) ,rgb(120, 120, 165) );*/
-  background: url('../../Assets/images/pic/bg-body.jpg') center center;
+  /* background: url('../../Assets/images/pic/bg-body.jpg') center center; */
+  background: url('../../Assets/images/home/bg-login.jpg') center center;
   background-size: cover;
   display: flex;
   justify-content: flex-start;

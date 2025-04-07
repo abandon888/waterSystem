@@ -11,10 +11,17 @@ function WhouseChange(){
         <div className='helpPage-div  commTable-div' style={{'font-family':"'楷体','宋体'!important"}}>
                 <h1 align="center">使用说明</h1>
                 <h2>一、开发语言</h2> 
-                <div className='box-title-div'> 
+                <div className='box-title-div' style={{  // 修改开始
+                    backdropFilter: 'blur(10px)',
+                    WebkitBackdropFilter: 'blur(10px)',
+                    background: 'rgba(255,255,255,0.1)',
+                    borderRadius: '16px',
+                    padding: '24px',
+                    margin: '20px 0'
+                }}> 
                     <h3>1.前端部分</h3> 
                     <div>前端采用React框架和Antd前端UI组件库进行项目的搭建，整个项目进行系统化开发，所有功能都进行过彻底的封装。
-                        当前系统具有强大的伸缩性，以便于后期的维护与开发。 主体背景颜色采用蓝灰渐变色，侧边栏采用古朴的棕色装饰。本系统风格一致
+                        当前系统具有强大的伸缩性，以便于后期的维护与开发。
                     </div>  
 
                     <h3>2.后端部分</h3>
